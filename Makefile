@@ -121,7 +121,7 @@ ifdef DEBUG
 endif
 
 ifdef IEEE
-  I3E_AOCC      = -ffast-math
+  I3E_AOCC      = -fno-fast-math
   I3E_INTEL     = -fp-model strict -fp-model source -prec-div -prec-sqrt
   I3E_SUN       = -fsimple=0 -fns=no
   I3E_GNU       = -ffloat-store
